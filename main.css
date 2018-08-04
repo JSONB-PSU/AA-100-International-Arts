@@ -1,0 +1,135 @@
+body {
+	background: #000;
+	color: #fff;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+	word-wrap: break-word;
+}
+
+main {
+	background: #111;
+	width: 90vw;
+	max-width: 1000px;
+	margin: auto;
+}
+
+p {
+	text-indent: 30px;
+	color: #ddd;
+	font-family: 'cardo', serif;
+}
+
+#map {
+	max-height: 400px;
+	max-width: 70%;
+	margin: auto;
+	float: right;
+	clear: both;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+.map, .video {
+	max-height: 400px;
+	max-width: 50%px;
+	margin: auto;
+	padding: 10px;
+	margin: 10px;;
+	clear:both;
+}
+
+.video {
+	float: left;
+}
+
+.map {
+	float: right;
+	border-radius: 5%;
+}
+
+header h1 {
+	text-align: center;
+	color: red;
+	border-bottom: 1px solid goldenrod;
+	font-family: 'Righteous', cursive;
+	padding-bottom: 20px;
+}
+
+nav {
+	color: purple;
+	margin-bottom: 25px;
+	width: 90vw;
+	margin: auto;
+}
+
+nav ul {
+	max-width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 20px 15px 20px;
+	font-family: 'MedievalSharp', cursive;
+	font-size: 18px;
+}
+
+a {
+	color: goldenrod;
+	text-decoration: none;
+}
+
+a:hover {
+	color: firebrick;
+}
+
+section {
+	width: 100%;
+	display: none;
+}
+
+section h2 {
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 3px double red;
+	clear: both;
+	color: goldenrod;
+	font-family: 'Righteous', cursive;
+	font-size: 32px;
+}
+
+section p {
+	line-height: 1.5;
+	font-size: 16px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	
+}
+
+.references li {
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+
+footer {
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	border-top: 1px solid goldenrod;
+	flex: 5;
+	font-family: 'Righteous', cursive;
+	margin-top: 25px;
+}
+
+img, .videos, .maps {
+	display: inline-block;
+}
+
+#intro {
+	display: contents;
+}
